@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import Form from "../views/Form.vue";
 import Tab from "../views/Tab.vue";
+import Reverse from "../views/Reverse.vue";
 
 Vue.use(VueRouter);
 
@@ -30,7 +31,8 @@ const routes: Array<RouteConfig> = [
     path: "/tab",
     name: "Tab",
     component: Tab
-  }
+  },
+  { path: "/reverse", name: "Reverse", component: Reverse }
 ];
 
 const router = new VueRouter({
