@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 import Form from "../views/Form.vue";
+import Tab from "../views/Tab.vue";
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes: Array<RouteConfig> = [
     path: "/form",
     name: "Form",
     component: Form
+  },
+  {
+    path: "/tab",
+    name: "Tab",
+    component: Tab
   }
 ];
 
