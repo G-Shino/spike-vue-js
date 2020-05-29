@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Form from "../views/Form.vue";
 import Tab from "../views/Tab.vue";
 import Samples from "../views/Samples.vue";
+import Canvas from "../views/Canvas.vue";
 
 Vue.use(VueRouter);
 
@@ -32,7 +33,8 @@ const routes: Array<RouteConfig> = [
     name: "Tab",
     component: Tab
   },
-  { path: "/samples", name: "Samples", component: Samples }
+  { path: "/samples", name: "Samples", component: Samples },
+  { path: "/canvas", name: "Canvas", component: Canvas }
 ];
 
 const router = new VueRouter({
