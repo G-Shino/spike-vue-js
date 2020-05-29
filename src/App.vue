@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/form">Form</router-link> |
       <router-link to="/tab">Tab</router-link> |
-      <router-link to="/reverse">Reverse</router-link>
+      <router-link to="/samples">Samples</router-link>
     </div>
     <router-view />
   </div>
