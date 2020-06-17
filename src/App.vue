@@ -6,7 +6,8 @@
       <router-link to="/form">Form</router-link> |
       <router-link to="/tab">Tab</router-link> |
       <router-link to="/samples">Samples</router-link> |
-      <router-link to="/canvas">Canvas</router-link>
+      <router-link to="/freewriting">FreeWriting</router-link> |
+      <router-link to="/drag-and-drop">DragAndDrop</router-link> |
     </div>
     <router-view />
   </div>

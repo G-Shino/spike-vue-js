@@ -2,7 +2,7 @@
   <div>
     <div class="md-layout md-gutter" style="margin-left: 340px">
       <div class="md-layout-item">
-        <md-field style="float: left">
+        <!-- <md-field style="float: left">
           <label for="mode">Mode</label>
           <md-select v-model="mode" name="mode" id="mode">
             <md-option value="brush">Brush</md-option>
@@ -14,9 +14,9 @@
         <md-field style="float: left">
           <label for="brushColor">Color</label>
           <md-input type="color" v-model="brushColor" />
-        </md-field>
+        </md-field> -->
 
-        <md-field style="float: left; margin-top: -8px">
+        <!-- <md-field style="float: left; margin-top: -8px">
           <md-button class="md-dense md-raised md-primary">
             Back
           </md-button>
@@ -35,7 +35,7 @@
           <md-button class="md-dense md-raised md-primary">
             Save
           </md-button>
-        </md-field>
+        </md-field> -->
         <FreeDrawing />
       </div>
     </div>

@@ -4,7 +4,8 @@ import Home from "../views/Home.vue";
 import Form from "../views/Form.vue";
 import Tab from "../views/Tab.vue";
 import Samples from "../views/Samples.vue";
-import Canvas from "../views/Canvas.vue";
+import FreeWriting from "../views/FreeWriting.vue";
+import DragAndDrop from "../views/DragAndDrop.vue";
 
 Vue.use(VueRouter);
 
@@ -34,7 +35,8 @@ const routes: Array<RouteConfig> = [
     component: Tab
   },
   { path: "/samples", name: "Samples", component: Samples },
-  { path: "/canvas", name: "Canvas", component: Canvas }
+  { path: "/freewriting", name: "FreeWriting", component: FreeWriting },
+  { path: "/drag-and-drop", name: "DragAndDrop", component: DragAndDrop }
 ];
 
 const router = new VueRouter({
