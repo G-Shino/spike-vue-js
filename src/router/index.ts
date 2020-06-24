@@ -7,6 +7,7 @@ import Samples from "../views/Samples.vue";
 import FreeWriting from "../views/FreeWriting.vue";
 import DragAndDrop from "../views/DragAndDrop.vue";
 import SpikeKonva from "../views/SpikeKonva.vue";
+import SpikeKonvaText from "../views/SpikeKonvaText.vue";
 
 Vue.use(VueRouter);
 
@@ -38,7 +39,12 @@ const routes: Array<RouteConfig> = [
   { path: "/samples", name: "Samples", component: Samples },
   { path: "/freewriting", name: "FreeWriting", component: FreeWriting },
   { path: "/drag-and-drop", name: "DragAndDrop", component: DragAndDrop },
-  { path: "/spike-konva", name: "SpikeKonva", component: SpikeKonva }
+  { path: "/spike-konva", name: "SpikeKonva", component: SpikeKonva },
+  {
+    path: "/spike-konva-text",
+    name: "SpikeKonvaText",
+    component: SpikeKonvaText
+  }
 ];
 
 const router = new VueRouter({

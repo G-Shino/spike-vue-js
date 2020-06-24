@@ -9,6 +9,7 @@
       <router-link to="/freewriting">FreeWriting</router-link> |
       <router-link to="/drag-and-drop">DragAndDrop</router-link> |
       <router-link to="/spike-konva">SpikeKonva</router-link> |
+      <router-link to="/spike-konva-text">SpikeKonvaText</router-link> |
     </div>
     <router-view />
   </div>

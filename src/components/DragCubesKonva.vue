@@ -30,6 +30,7 @@ export default {
       fill: "#f98289",
       stroke: "#491022",
       strokeWidth: 4,
+      draggable: true,
       // shadowBlur: 10,
       cornerRadius: [10, 10, 10, 10]
     });
